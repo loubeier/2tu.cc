@@ -1,0 +1,206 @@
+*{
+    margin:0 auto;
+    padding:0;
+}
+a:link, a:visited {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+body {
+    background: url("../../../../mbg.jpg") repeat scroll 0 0 #f7f7f7;
+    color: #232426;
+    font-family: "微软雅黑","Microsoft Yahei",Tahoma,Verdana;
+    font-size: 12px;
+}
+#header{
+    height:230px;
+    border-bottom:1px solid #f3f3f3;
+    background:url("../../../../Public/Img/menu.png") repeat-x scroll 100% 34px #fff;
+}
+#header .head, #footer, #main, .location, #head {
+    margin: 0 auto;
+    width: 960px;
+}
+.top {
+    color: #797979;
+    height: 34px;
+    line-height: 34px;
+}
+.top p{
+    float:right;
+}
+.logo {
+    float: left;
+    height: 114px;
+    width: 220px;
+}
+.plus {
+    color: #d0d1d3;
+    float: left;
+    padding: 30px 20px 0 0;
+}
+#search {
+    float: left;
+    margin-top: 24px;
+    width: 410px;
+}
+.plus a.ph {
+    width: 36px;
+}
+.ser {
+    height: 38px;
+    width: 410px;
+}
+.plus a, .plus a:visited {
+    background: url("../../../../Public/Img/i.png") no-repeat scroll 6px -66px #fff;
+    color: #80838c;
+    display: inline-block;
+    float: left;
+    margin-left: 40px;
+    padding-top: 38px;
+    width: 50px;
+}
+.plus a.dq, .plus a.dq:visited {
+    background-position: -28px -66px;
+}
+.ser input {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 3px solid #d1d1d1;
+    color: #d8d8d8;
+    float: left;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    width: 310px;
+}
+.ser .sub {
+    background: url("../../../../Public/Img/serbtn.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 38px;
+    margin-left: 4px;
+    padding: 0;
+    width: 70px;
+}
+.history{
+    position:relative;
+    float:right;
+    width:130px;
+    margin:26px 0 0;
+}
+.history a.gk, .history a.gk:visited {
+    background-position: 0 0;
+    color: #515151;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-indent: 14px;
+    width: 130px;
+}
+.sa, .history a.gk, .history a.gk:visited {
+    background: url("../../../../Public/Img/i.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.drop-box {
+    clear: both;
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    width: 320px;
+    z-index: 8;
+}
+.lookedlist {
+    background-color: #fff;
+    border: 1px solid #eee;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    width: 308px;
+}
+.lookedlist p {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    color: #999;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: -1px;
+    overflow: hidden;
+    padding: 0 10px;
+    position: relative;
+}
+.lookedlist ul {
+    clear: both;
+    max-height: 165px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 307px;
+}
+.lookedlist li {
+    border-top: 1px dotted #dfdfdf;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 0 -2px;
+    overflow: hidden;
+    padding-right: 3px;
+}
+.closehis {
+    float: right;
+}
+.lookedlist .histodo {
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    clear: both;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    padding: 0 10px;
+    text-align: center;
+    width: 320px;
+}
+#menu{
+    height:78px;
+    clear:both;
+}
+#menu .m {
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+#menu .m p {
+    float: left;
+}
+#menu .m a.curr, #menu .m a:hover, .menu a:hover, .menu a.curr {
+    background: none repeat scroll 0 0 #0483b0;
+    text-decoration: none;
+}
+#menu .m a, #menu .m a:visited {
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    padding: 0 20px;
+}
+#menu .m span {
+    float: right;
+    margin-right: -10px;
+}
+#menu .s {
+    color: #f87c00;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+}
+#menu .s a, #menu .s a:visited {
+    color: #333;
+    margin-right: 10px;
+}

@@ -1,0 +1,807 @@
+.box {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ececec;
+    height: auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.newbox .update {
+    float: left;
+    width: 258px;
+}
+.newbox .update {
+    float: left;
+    width: 258px;
+}
+.box .title, .shot dl {
+    height: 38px;
+    line-height: 38px;
+}
+.newbox .update ul {
+    display: block;
+}
+.shot ul {
+    width: 238px;
+}
+.shot li {
+    color: #626262;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    padding: 0 0 0 10px;
+    width: 228px;
+}
+.shot li .n {
+    color: #f60;
+}
+.shot li span {
+    color: #979797;
+    float: right;
+}
+.box .title h2, .trailers .title span, .shot dl dt, .newbox .update h3, .channel .shot h3 {
+    color: #06a8e9;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 37px;
+    padding-left: 14px;
+}
+.newbox .update .title span {
+    float: right;
+    padding-right: 10px;
+}
+.newbox .update .title a {
+    color: #0aa3e6;
+}
+.newbox .update {
+    float: left;
+    width: 258px;
+}
+.box .content .title dl {
+    float: right;
+    height: 28px;
+    padding: 7px 10px 0 0;
+}
+.newbox .update {
+    float: left;
+    width: 258px;
+}
+.title h2{
+    float:left;
+}
+.box .title, .shot dl {
+    height: 38px;
+    line-height: 38px;
+}
+.box .title h2 a, .box .title h2 a:visited, .shot dl dt a, .shot dl dt a:visited {
+    color: #06a8e9;
+}
+.box .content {
+    border-right: 1px solid #ececec;
+    float: left;
+    width: 699px;
+}
+.newbox .content {
+    border-left: 1px solid #ececec;
+    border-right: 0 none;
+    float: right;
+}
+
+.box .content .title dl dd {
+    cursor: pointer;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    padding: 2px 15px 0;
+}
+.box .content .title {
+    background: url("../../../../Public/Img/wzbg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.box .img-list {
+    display: none;
+    overflow: hidden;
+    padding: 20px 0 0;
+}
+.box .img-list li {
+    margin: 0 0 0 20px;
+    padding: 0 0 6px;
+}
+.img-list li {
+    float: left;
+    height: 186px;
+    margin: 0 16px 0 0;
+    overflow: hidden;
+    width: 92px;
+}
+.play-img, .p {
+    border: 1px solid #dfdfdf;
+    display: block;
+    height: 122px;
+    overflow: hidden;
+    padding: 2px;
+    position: relative;
+    width: 86px;
+}
+.play-img img, .p img {
+    background: url("lazyload.gif") no-repeat scroll center center transparent;
+    display: block;
+    height: 122px;
+    overflow: hidden;
+    width: 86px;
+}
+.play-img i, .play-img em, .p em, .p i {
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    position: absolute;
+    text-decoration: none;
+    width: 86px;
+}
+
+body, div, iframe, ul, ol, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, table, th, td, form, input, button, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+ol, ul {
+    list-style: outside none none;
+}
+s {
+    text-decoration: none;
+}
+img {
+    border: 0 none;
+}
+a:link, a:visited {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+a:hover {
+    color: #fe9633;
+    text-decoration: underline;
+}
+body {
+    background: url("mbg.jpg") repeat scroll 0 0 #f7f7f7;
+    color: #232426;
+    font-family: "微软雅黑","Microsoft Yahei",Tahoma,Verdana;
+    font-size: 12px;
+}
+div, form, img, ul, ol, li, dl, dt, dd {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+table, td, tr, th {
+    font-size: 12px;
+}
+li {
+    list-style-type: none;
+}
+img {
+    vertical-align: top;
+}
+.cr {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mt8 {
+    margin-top: 8px;
+}
+.hidden, .ins {
+    display: none;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+#header .head, #footer, #main, .location, #head {
+    margin: 0 auto;
+    width: 960px;
+}
+.bold {
+    font-weight: bold;
+}
+#header {
+    background: url("../../../../Public/Img/menu.png") repeat-x scroll 100% 34px #fff;
+    border-bottom: 1px solid #f3f3f3;
+    height: 230px;
+}
+.ins {
+    display: none;
+}
+.top {
+    color: #797979;
+    height: 34px;
+    line-height: 34px;
+}
+.top span {
+    float: left;
+}
+.top p {
+    float: right;
+}
+.top .desk {
+    color: #f00;
+}
+.top .wp {
+    color: #09a5e0;
+}
+.logo {
+    float: left;
+    height: 114px;
+    width: 220px;
+}
+.logo a, .logo a:visited {
+    background: url("logo.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 54px;
+    line-height: 162px;
+    margin-top: 29px;
+    overflow: hidden;
+    width: 220px;
+}
+#search {
+    float: left;
+    margin-top: 24px;
+    width: 410px;
+}
+.ser {
+    height: 38px;
+    width: 410px;
+}
+.ser input {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 3px solid #d1d1d1;
+    color: #d8d8d8;
+    float: left;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    width: 310px;
+}
+/*.ser .sub {*/
+    /*background: url("serbtn.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);*/
+    /*border: medium none;*/
+    /*color: #fff;*/
+    /*cursor: pointer;*/
+    /*font-size: 14px;*/
+    /*font-weight: bold;*/
+    /*height: 38px;*/
+    /*margin-left: 4px;*/
+    /*padding: 0;*/
+    /*width: 70px;*/
+/*}*/
+.ser .sub:hover {
+    background: none repeat scroll 0 0 #04b7f2;
+}
+#search p {
+    color: #a0a0a0;
+    padding-top: 6px;
+}
+#search p a {
+    margin-right: 5px;
+}
+#search p a, #search p a:visited {
+    color: #a0a0a0;
+}
+#search p a:hover, .plus a:hover {
+    color: #fe9633;
+}
+.history {
+    float: right;
+    margin: 26px 0 0;
+    position: relative;
+    width: 130px;
+}
+.history a.gk, .history a.gk:visited {
+    background-position: 0 0;
+    color: #515151;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-indent: 14px;
+    width: 130px;
+}
+.plus {
+    color: #d0d1d3;
+    float: left;
+    padding: 30px 20px 0 0;
+}
+/*.plus a, .plus a:visited {*/
+    /*background: url("i.png") no-repeat scroll 6px -66px #fff;*/
+    /*color: #80838c;*/
+    /*display: inline-block;*/
+    /*float: left;*/
+    /*margin-left: 40px;*/
+    /*padding-top: 38px;*/
+    /*width: 50px;*/
+/*}*/
+.plus a.ph, .plus a.ph:visited {
+    width: 36px;
+}
+.plus a.dq, .plus a.dq:visited {
+    background-position: -28px -66px;
+}
+.drop-box {
+    clear: both;
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    width: 320px;
+    z-index: 8;
+}
+.lookedlist {
+    background-color: #fff;
+    border: 1px solid #eee;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    width: 308px;
+}
+.lookedlist p {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    color: #999;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: -1px;
+    overflow: hidden;
+    padding: 0 10px;
+    position: relative;
+}
+.lookedlist ul {
+    clear: both;
+    max-height: 165px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 307px;
+}
+.lookedlist li {
+    border-top: 1px dotted #dfdfdf;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 0 -2px;
+    overflow: hidden;
+    padding-right: 3px;
+}
+.lookedlist li.nohis p {
+    background-color: #fff;
+    border: 0 none;
+    height: 32px;
+    text-align: center;
+}
+.lookedlist li h5 {
+    float: left;
+    height: 32px;
+    overflow: hidden;
+    padding: 0 10px;
+    width: 198px;
+}
+.lookedlist li h5 em {
+    color: #666;
+    margin: 0 5px;
+}
+.lookedlist li label {
+    display: block;
+    float: left;
+    height: 32px;
+    overflow: hidden;
+    width: 55px;
+}
+.lookedlist li .delck {
+    background: url("cross_gray.gif") no-repeat scroll 3px 3px rgba(0, 0, 0, 0);
+    display: block;
+    float: right;
+    font-size: 0;
+    height: 13px;
+    line-height: 0;
+    margin-top: 9px;
+    overflow: hidden;
+    width: 13px;
+}
+.lookedlist li .delck:hover {
+    background-color: #ddd;
+    background-image: url("cross_red.gif");
+}
+.lookedlist .histodo {
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    clear: both;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    padding: 0 10px;
+    text-align: center;
+    width: 320px;
+}
+.lookedlist .histodo a {
+    color: #0770ba;
+    margin: 0 2px;
+}
+.lookedlist .histodo em {
+    color: #ccc;
+    margin: 0 5px 0 7px;
+}
+.closehis {
+    float: right;
+}
+#menu {
+    clear: both;
+    height: 78px;
+}
+#menu .m {
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+#menu .m p {
+    float: left;
+}
+#menu .m a, #menu .m a:visited {
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    padding: 0 20px;
+}
+#menu .m a.curr, #menu .m a:hover, .menu a:hover, .menu a.curr {
+    background: none repeat scroll 0 0 #0483b0;
+    text-decoration: none;
+}
+.channel1 .menu15, .channel2 .menu15, .channel3 .menu15, .channel4 .menu15, .channel5 .menu15, .channel6 .menu15, .channel13 .menu15, .channel14 .menu15, .channel15 .menu15, .channel9 .menu16, .channel10 .menu16, .channel11 .menu16, .channel12 .menu16, .channel17 .menu16, .channel16 .menu16, .channel7 .menu7, .channel8 .menu8, .channel18 .menu18, .channel21 .menu21, .zhibopg .zhibo {
+    background: none repeat scroll 0 0 #0483b0;
+}
+.channel1 .menu15 a, .channel2 .menu15 a, .channel3 .menu15 a, .channel4 .menu15 a, .channel5 .menu15 a, .channel6 .menu15 a, .channel13 .menu15 a, .channel14 .menu15 a, .channel15 .menu15 a, .channel9 .menu16 a, .channel10 .menu16 a, .channel11 .menu16 a, .channel12 .menu16 a, .channel17 .menu16 a, .channel16 .menu16 a, .channel7 .menu7 a, .channel8 .menu8 a, .channel18 .menu18 a, .channel21 .menu21 a {
+    color: #ffffff;
+}
+.channel1 #menu .m a.curr, .channel2 #menu .m a.curr, .channel3 #menu .m a.curr, .channel4 #menu .m a.curr, .channel5 #menu .m a.curr, .channel6 #menu .m a.curr, .channel13 #menu .m a.curr, .channel14 #menu .m a.curr, .channel15 #menu .m a.curr, .channel9 #menu .m a.curr, .channel10 #menu .m a.curr, .channel11 #menu .m a.curr, .channel12 #menu .m a.curr, .channel17 #menu .m a.curr, .channel16 #menu .m a.curr, .channel7 #menu .m a.curr, .channel8 #menu .m a.curr, .channel18 #menu .m a.curr, .channel21 #menu .m a.curr, .zhibopg #menu .m a.curr {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#menu .m span {
+    float: right;
+    margin-right: -10px;
+}
+#menu .m span a, #menu .m span a:visited {
+    color: #fff;
+    float: left;
+    padding: 0 10px;
+}
+#menu .s {
+    color: #f87c00;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+}
+#menu .s a, #menu .s a:visited {
+    color: #333;
+    margin-right: 10px;
+}
+#menu .s a:hover {
+    color: #f00;
+}
+#footer {
+    clear: both;
+    color: #555;
+    margin-top: 10px;
+    padding: 10px 0 30px;
+    text-align: center;
+}
+#footer p {
+    line-height: 28px;
+}
+#footer a, #footer a:visited {
+    color: #9b9b9b;
+}
+.link {
+    background: none repeat scroll 0 0 #eeeeee;
+    clear: both;
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 14px;
+}
+.link .title {
+    height: 28px;
+    line-height: 28px;
+}
+.link .title span {
+    color: #0070c0;
+    float: left;
+    font-size: 14px;
+}
+.link .title p {
+    color: #878787;
+    float: right;
+}
+.link a, .link a:visited {
+    color: #616161;
+}
+#main {
+    height: auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+#pages {
+    clear: both;
+    height: 24px;
+    padding: 0;
+    text-align: center;
+}
+#pages a, #pages a:visited, #pages a:hover, #pages span, .pages a, .pages a:visited, .pages span {
+    background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #dedede;
+    color: #333;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 3px;
+    padding: 0 8px;
+    text-decoration: none;
+}
+#pages a:hover, #pages a.curr, #pages a.curr:visited, .pages a:hover {
+    background: none repeat scroll 0 0 #0196da;
+    border: 1px solid #0196da;
+    color: #fff;
+}
+.uppages span {
+    display: none;
+}
+.banner {
+    clear: both;
+    margin-bottom: 8px;
+}
+.img-list {
+    overflow: hidden;
+}
+.img-list li {
+    float: left;
+    height: 186px;
+    margin: 0 16px 0 0;
+    overflow: hidden;
+    width: 92px;
+}
+.img-list b {
+    display: block;
+    font-weight: normal;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 6px;
+    text-align: center;
+}
+.img-list b a, .img-list b a:visited {
+    color: #0070bd;
+}
+.img-list b a:hover {
+    color: #fe9633;
+}
+.img-list li p {
+    color: #a2a2a2;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    text-align: center;
+}
+.play-img, .p {
+    border: 1px solid #dfdfdf;
+    display: block;
+    height: 122px;
+    overflow: hidden;
+    padding: 2px;
+    position: relative;
+    width: 86px;
+}
+.play-img:hover, .p:hover {
+    border: 1px solid #16a7ef;
+    color: #fff;
+    text-decoration: none;
+}
+.play-img img, .p img {
+    background: url("lazyload.gif") no-repeat scroll center center transparent;
+    display: block;
+    height: 122px;
+    overflow: hidden;
+    width: 86px;
+}
+.play-img i, .play-img em, .p em, .p i {
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    position: absolute;
+    text-decoration: none;
+    width: 86px;
+}
+.play-img:hover i {
+    background: url("ico_vh.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 40px;
+    left: 25px;
+    top: 36px;
+    width: 40px;
+}
+.play-img em, .p em {
+    background: url("play-img.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 2px;
+    color: #fff;
+    font-size: 12px;
+    left: 2px;
+    line-height: 20px;
+    padding: 0 5px;
+    text-align: right;
+    white-space: nowrap;
+    width: 76px;
+    z-index: 2;
+}
+.box .img-list {
+    display: none;
+    overflow: hidden;
+    padding: 20px 0 0;
+}
+em, i {
+    font-style: normal;
+}
+.trailers {
+    border-top: 1px solid #e8e7e5;
+    clear: both;
+    padding-top: 6px;
+}
+.trailers .title {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+.trailers ul {
+    margin-right: -16px;
+    width: 976px;
+}
+.trailers .img-list li {
+    height: 220px;
+    margin: 0 16px 0 0;
+    padding: 0;
+    width: 106px;
+}
+.trailers .img-list li b {
+    margin: 6px 0;
+}
+.trailers .play-img {
+    height: 142px;
+    width: 100px;
+}
+.trailers .play-img img {
+    height: 142px;
+    width: 100px;
+}
+.trailers .play-img i, .trailers .play-img em {
+    width: 100px;
+}
+.trailers .play-img:hover i {
+    left: 32px;
+    top: 46px;
+}
+.trailers .play-img em {
+    background: url("play-img.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 2px;
+    color: #fff;
+    font-size: 12px;
+    left: 2px;
+    line-height: 20px;
+    padding: 0 5px;
+    text-align: right;
+    white-space: nowrap;
+    width: 90px;
+    z-index: 2;
+}
+.trailers li p {
+    height: 28px;
+}
+.trailers li p a, .trailers li p a:visited {
+    background: none repeat scroll 0 0 #c9c9c9;
+    color: #555;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80px;
+}
+.trailers li p a:hover {
+    background: none repeat scroll 0 0 #1c9ad5;
+    color: #fff;
+    text-decoration: none;
+}
+.newbox, .fastbox {
+    margin-bottom: 16px;
+}
+.shot dl {
+    height: 41px;
+    padding: 0;
+}
+.shot dl dt {
+    width: 100px;
+}
+.shot dl dd {
+    background: none repeat scroll 0 0 #d8d8d8;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 8px;
+    text-align: center;
+    width: 36px;
+}
+.box .side {
+    background: none repeat scroll 0 0 #f7f7f7;
+    float: right;
+    padding-bottom: 9px;
+    width: 258px;
+}
+.shot .bd {
+    padding: 0 10px;
+}
+.shot li {
+    color: #626262;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    padding: 0 0 0 10px;
+    width: 228px;
+}
+.shot li span {
+    color: #979797;
+    float: right;
+}
+.shot li i {
+    display: block;
+    float: left;
+    font-size: 12px;
+    width: 26px;
+}
+.shot li .n {
+    color: #f60;
+}
+.shot li a, .shot li a:visited {
+    float: left;
+}
+.shot li .new {
+    color: #f00;
+}

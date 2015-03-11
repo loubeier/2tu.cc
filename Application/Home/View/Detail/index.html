@@ -1,0 +1,189 @@
+<layout name="layout" />
+<div class="view">
+    <div class="wz">
+        当前位置:
+        <a href="/">首页</a>&nbsp;&nbsp;»&nbsp;&nbsp;
+        <a href="/GvodHtml/15.html">电影</a>&nbsp;&nbsp;»&nbsp;&nbsp;
+        <a href="/GvodHtml/3.html">爱情片</a>&nbsp;&nbsp;»&nbsp;&nbsp;微爱之渐入佳境
+    </div>
+    <div class="pic">
+        <img src="__ROOT__/Public/Img/20141217225926737.jpg"/>
+        <p>
+            <a href="#kan">立即播放</a>
+        </p>
+    </div>
+    <div class="info">
+        <h1>{$mdetail.movie_name}</h1>
+        <ul>
+            <li>
+                <span>上映年代:</span>
+                {$mdetail.releasedate}
+                <span>状态</span>
+                {$mdetail.status}
+            </li>
+            <li>
+                <span>类型:</span>
+                <a>剧情</a>
+                <a>爱情</a>
+                <a>喜剧</a>
+            </li>
+            <li>
+                <span>主演:</span>
+                <volist name="actors" id="vo">
+                    <a>{$vo.name}</a>&nbsp;&nbsp;
+                </volist>
+
+            </li>
+            <li>
+                <span>地区:</span>
+                大陆
+            </li>
+            <li>
+                <div class="fl">
+                    <span>更新日期:</span>
+                    2015-1-11 14:04:40
+                </div>
+                <a class="fr" style="text-align:right;" href="#pl">
+                    <img width="90" height="22" alt="查看评论" src="__ROOT__/Public/Img/90x22.gif"/>
+                </a>
+            </li>
+        </ul>
+        <div class="textdesc">
+            <span>剧情:</span>
+            {$mdetail.storyline|substr=0,200}
+            <a href="#desc">详细</a>
+            ]
+        </div>
+        <div class="pfen">
+            <p>影片评价</p>
+            <div class="starscore">
+                <div id="fileStar" class="starA fl">
+                    <div id="start" class="starB s10"></div>
+                    <div id="starTC" class="starC">
+                        <a></a>
+                    </div>
+                </div>
+                <span id="filmStarScore" class="no c1">
+                    10
+                    <i>.0</i>
+                </span>
+            </div>
+            <div id="filmStarScoreTip" class="fen">棒极了</div>
+        </div>
+    </div>
+</div>
+<div class="infoad">
+
+</div>
+<div class="endpage clearfix">
+    <div class="ulike">
+        <div class="title">
+            <span>猜你喜歡</span>
+        </div>
+        <ul class="img-list imglist clearfix">
+            <li>
+                <a class="play-img">
+                    <img src="__ROOT__/Public/Img/20120313111119706.jpg"/>
+                    <i></i>
+                    <em>1280高清</em>
+                </a>
+                <h5>
+                    <a>晚秋</a>
+                </h5>
+            </li>
+            <li>
+                <a class="play-img">
+                    <img src="__ROOT__/Public/Img/20120313111119706.jpg"/>
+                    <i></i>
+                    <em>1280高清</em>
+                </a>
+                <h5>
+                    <a>晚秋</a>
+                </h5>
+            </li>
+            <li>
+                <a class="play-img">
+                    <img src="__ROOT__/Public/Img/20120313111119706.jpg"/>
+                    <i></i>
+                    <em>1280高清</em>
+                </a>
+                <h5>
+                    <a>晚秋</a>
+                </h5>
+            </li>
+            <li>
+                <a class="play-img">
+                    <img src="__ROOT__/Public/Img/20120313111119706.jpg"/>
+                    <i></i>
+                    <em>1280高清</em>
+                </a>
+                <h5>
+                    <a>晚秋</a>
+                </h5>
+            </li>
+            <li>
+                <a class="play-img">
+                    <img src="__ROOT__/Public/Img/20120313111119706.jpg"/>
+                    <i></i>
+                    <em>1280高清</em>
+                </a>
+                <h5>
+                    <a>晚秋</a>
+                </h5>
+            </li>
+            <li>
+                <a class="play-img">
+                    <img src="__ROOT__/Public/Img/20120313111119706.jpg"/>
+                    <i></i>
+                    <em>1280高清</em>
+                </a>
+                <h5>
+                    <a>晚秋</a>
+                </h5>
+            </li>
+            <li>
+                <a class="play-img">
+                    <img src="__ROOT__/Public/Img/20120313111119706.jpg"/>
+                    <i></i>
+                    <em>1280高清</em>
+                </a>
+                <h5>
+                    <a>晚秋</a>
+                </h5>
+            </li>
+            <li>
+                <a class="play-img">
+                    <img src="__ROOT__/Public/Img/20120313111119706.jpg"/>
+                    <i></i>
+                    <em>1280高清</em>
+                </a>
+                <h5>
+                    <a>晚秋</a>
+                </h5>
+            </li>
+        </ul>
+    </div>
+    <div class="mox">
+        <div class="title">
+            <span>百度影音</span>
+            <p>
+                <a>下载百度影音</a>
+            </p>
+        </div>
+        <div class="play-list">
+            <a>1024高清中英双子MKV版</a>
+        </div>
+    </div>
+    <div class="mox">
+        <div class="title">
+            <span>
+                <img src=""/>
+            </span>
+        </div>
+        <div class="downlist"></div>
+
+    </div>
+</div>
+<script>
+    dynamicLoading.css('__PUBLIC__/Css/detail.css');
+</script

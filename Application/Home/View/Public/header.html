@@ -1,0 +1,83 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/header.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/footer.css" />
+    <script src="__PUBLIC__/Js/dynamicLoading.js" ></script>
+</head>
+<body>
+<div id="header">
+    <div class="head">
+        <div class="top">
+            <span>欢迎来到私人影院,我们为大家免费提供好看的电影</span>
+            <p>
+                <a onclick="setHome()" href="javascript:void(0);">设为首页</a> -
+                <a onclick="addFavorite();" href="javascript:void(0)">加入收藏</a> -
+                <a class="wp" target="_blank" href="">留言求片</a> -
+                <a target="_blank" href="">RSS订阅</a> -
+                <a class="desk" target="_blank" href="">将迅播放到桌面</a>
+            </p>
+        </div>
+        <div class="logo"></div>
+        <div class="plus">
+            <a class="ph">排行榜</a>
+            <a class="dq">影视大全</a>
+        </div>
+        <div id="search">
+            <div class="ser">
+                <p>
+                <form>
+                    <input class="search-input" type="text" name="search" value="在此处输入影片名或演员名称"/>
+                    <input class="sub" type="submit" name="submit" value="搜索"/>
+                </form>
+                </p>
+            </div>
+        </div>
+        <div class="history">
+            <a class="gk">播放记录</a>
+            <div class="drop-box" style="display: none;">
+                <div class="lookedlist">
+                    <p>
+                        <a href="javascript:;" class="closehis">关闭</a>
+                        <a onclick="javascript:setEmpty()" id="emptybt" href="javascript:void(0);">清空全部播放记录</a>
+                    </p>
+                    <ul id="playhistory" class="highlight">
+                        <div class="histodo" id="morelog">您的观看历史为空。</div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <div class="m">
+                <p>
+                    <a class="curr" href="http://www.2tu.cc">首页</a>
+                    <a class="menu15" href="/GvodHtml/dy.html">电影</a>
+                    <a class="menu16" href="/GvodHtml/tv.html">电视</a>
+                    <a class="menu7" href="/GvodHtml/7.html">动画片</a>
+                    <a class="menu8" href="/GvodHtml/8.html">综艺片</a>
+                    <a class="menu21" href="/GvodHtml/21.html">3D电影</a>
+                    <a class="menu18" href="/GvodHtml/18.html">影视预告</a>
+                </p>
+                <span>
+                    <a href="/top/toplist.html">排行榜</a>
+                    <a href="/top/lastupdate.html">最近更新</a>
+                </span>
+            </div>
+            <p class="s">热门分类：
+                <a href="/GvodHtml/1.html">动作片</a>
+                <a href="/GvodHtml/2.html">喜剧片</a>
+                <a href="/GvodHtml/3.html">爱情片</a>
+                <a href="/GvodHtml/4.html">科幻片</a>
+                <a href="/GvodHtml/5.html">恐怖片</a>
+                <a href="/GvodHtml/6.html">剧情片</a>
+                <a href="/GvodHtml/13.html">战争片</a>
+                <a href="/GvodHtml/14.html">其它片</a>
+                <a href="/GvodHtml/9.html">国产剧</a>
+                <a href="/GvodHtml/10.html">港台剧</a>
+                <a href="/GvodHtml/11.html">欧美剧</a>
+                <a href="/GvodHtml/12.html">日韩剧</a>
+                <a href="/GvodHtml/17.html">新马泰</a>
+            </p>
+        </div>
+    </div>
+
+</div>
